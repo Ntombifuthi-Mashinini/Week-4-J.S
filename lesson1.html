@@ -1,0 +1,28 @@
+Lesson 1 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript in Action</title>
+</head>
+<body>
+  <h2>Cool Facts List</h2>
+  <ul id="factList">
+    <li id="fact1">This will be updated</li>
+    <li id="fact2">This too!</li>
+  </ul>
+  <button id="revealBtn">Reveal the Magic</button>
+
+  <script>
+    const revealFacts = () => {
+      const fact1 = document.getElementById("fact1");
+      const fact2 = document.getElementById("fact2");
+
+      fact1.innerHTML = `JavaScript was created in just 10 days!`;
+      fact2.innerHTML = `With ES6, coding feels smoother and cooler!`;
+    };
+
+    const button = document.getElementById("revealBtn");
+    button.addEventListener("click", revealFacts);
+  </script>
+</body>
+</html>
