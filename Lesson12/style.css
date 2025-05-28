@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+select {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
