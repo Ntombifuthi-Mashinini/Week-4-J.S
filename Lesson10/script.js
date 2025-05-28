@@ -11,8 +11,8 @@ form.addEventListener('submit', function(event) {
 });
 
 function verifyUser(username, password) {
-  const correctUsername = 'Bond';
-  const correctPassword = '007';
+  const correctUsername = 'ntombifuthimashinini4@gmail.com';
+  const correctPassword = 'Rosey@1995';
 
   const messageBox = document.getElementById('message');
 
