@@ -1,0 +1,26 @@
+Lesson 4 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Check</title>
+</head>
+<body>
+  <h2>Password Checker</h2>
+  <p id="output"></p>
+
+  <script>
+    const userInputPassword = "008";
+    const actualPassword = "007";
+
+    let message = "";
+
+    if (userInputPassword === actualPassword) {
+      message = "Access granted! Welcome aboard.";
+    } else {
+      message = "Incorrect password. Please try again.";
+    }
+
+    document.getElementById("output").innerHTML = message;
+  </script>
+</body>
+</html>
