@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple JavaScript Function</title>
+</head>
+<body>
+  <h2>What's your name?</h2>
+
+  <input type="text" id="nameInput" placeholder="Type your name">
+  <button onclick="sayHello()">Click Me</button>
+
+  <p id="output"></p>
+
+  <script>
+    function sayHello() {
+      const name = document.getElementById("nameInput").value;
+      document.getElementById("output").innerHTML = "Hello, " + name + "!";
+    }
+  </script>
+</body>
+</html>
